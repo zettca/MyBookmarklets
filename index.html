@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>MyBookmarklets</title>
   <meta charset="UTF-8" content="text/html">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Just some of zettca's Bookmarklets">
   <style>
-    body{ margin: 1em; font-family: sans-serif; }
-    ul{ font-size: 1.4em; }
+    body {
+      margin: 1em;
+      font-family: sans-serif;
+    }
+
+    ul {
+      font-size: 1.6em;
+      line-height: 1.6em;
+    }
   </style>
 </head>
 
 <body>
 
-<h1>Alert <sup><sub>why not</sub></sup></h1>
-<ul>
-  <li><a href="javascript:alert('why hello there');">Salute</a></li>
-</ul>
-
-<h1>Lightshot Gallery Getter</h1>
-<ul>
-  <li><a href="javascript:CODES=[].slice.call(document.getElementsByClassName('gallery-item')).map((el)=>el.getAttribute('data-id36'));">GetImgCodes</a></li>
-</ul>
-
-<h1>WhatsApp MUOB</h1>
-<ul>
-  <li><a href="javascript:(function(){document.querySelector('.pane-chat-header').style.display='none',document.querySelector('#pane-side').style.visibility='hidden';})();">Wap-</a></li>
-  <li><a href="javascript:(function(){document.querySelector('#pane-side').style.visibility='visible';})();">Wap+</a></li>
-</ul>
-
-<h1>Instagram Auto Liker</h1>
-<ul>
-  <li><a href="">LikeAll</a></li>
-  <li><a href="">UnlikeAll</a></li>
-  <li><a href="">FlipLikes</a></li>
-</ul>
-  
-  <h1>Tribal Wars</h1>
-<ul>
-  <li><a href="javascript:(function()%7Bconst mkFrame %3D (id%2C url) %3D> '<iFRAME SRC%3D"'%2Burl%2B'" name%3D"'%2Bid%2B'" width%3D"840" height%3D"500"><%2Fiframe>'%3Bconst mkLink %3D (name) %3D> "window.frames%5B'"%2Bname%2B"'%5D.document.getElementById('troop_confirm_go').click()%3B"%3Blet frames %3D ""%2C links %3D ""%3Bfor (i%3D1%3Bi<%3D4%3Bi%2B%2B) %7Bframes %2B%3D mkFrame('name'%2Bi%2C window.location.href)%3Blinks %2B%3D mkLink('name'%2Bi)%3B%7Ddocument.body.innerHTML%3D'<a href%3D"javascript%3A'%2Blinks%2B'">Send Attack!<%2Fa><br>'%2Bframes%7D)()">NT/Fake sender</a></li>
-</ul>
+  <ul>
+    <li>
+      <a href="javascript:alert('why hello there');">Salute</a>
+    </li>
+    <li>
+      <a href="javascript:CODES=[].slice.call(document.getElementsByClassName('gallery-item')).map((el)=>el.getAttribute('data-id36'));">GetImgCodes</a>
+    </li>
+    <li>
+      <a href="javascript:(function(){document.querySelector('.pane-chat-header').style.display='none',document.querySelector('#pane-side').style.visibility='hidden';})();">Wap -</a>
+    </li>
+    <li>
+      <a href="javascript:(function(){document.querySelector('#pane-side').style.visibility='visible';})();">Wap +</a>
+    </li>
+    <li>
+      <a href="javascript:(function()%7B(function%20(delay)%20%7Bconst%20g%20%3D%20(c)%20%3D%3E%20document.getElementsByClassName(c)%3Bconst%20pics%20%3D%20g('_si7dy')%3Bfunction%20iteration()%20%7Bg('coreSpriteHeartOpen')%5B0%5D.click()%3Bg('coreSpriteRightPaginationArrow')%5B0%5D.click()%3B%7Dnew%20MutationObserver((muts)%20%3D%3E%20%7Bmuts.forEach((mut)%20%3D%3E%20%7Bif%20(mut.addedNodes.length)%20%7BsetTimeout(iteration%2C%20delay)%3Bnew%20MutationObserver((muts)%20%3D%3E%20%7Bmuts.forEach((mut)%20%3D%3E%20%7Bif%20(mut.addedNodes.length)%20setTimeout(iteration%2C%20delay)%3B%7D)%3B%7D).observe(mut.addedNodes%5B0%5D.firstChild.children%5B1%5D.firstChild.firstChild%2C%20%7B%20attributes%3A%20true%2C%20childList%3A%20true%2C%20characterData%3A%20true%20%7D)%3B%7D%7D)%3B%7D).observe(document.body%2C%20%7B%20childList%3A%20true%20%7D)%3B%7D)(100)%7D)()">Insta LikeAll</a>
+    </li>
+    <li>
+      <a href="javascript:(function()%7B(function%20(delay)%20%7Bconst%20g%20%3D%20(c)%20%3D%3E%20document.getElementsByClassName(c)%3Bconst%20pics%20%3D%20g('_si7dy')%3Bfunction%20iteration()%20%7Bg('coreSpriteHeartFull')%5B0%5D.click()%3Bg('coreSpriteRightPaginationArrow')%5B0%5D.click()%3B%7Dnew%20MutationObserver((muts)%20%3D%3E%20%7Bmuts.forEach((mut)%20%3D%3E%20%7Bif%20(mut.addedNodes.length)%20%7BsetTimeout(iteration%2C%20delay)%3Bnew%20MutationObserver((muts)%20%3D%3E%20%7Bmuts.forEach((mut)%20%3D%3E%20%7Bif%20(mut.addedNodes.length)%20setTimeout(iteration%2C%20delay)%3B%7D)%3B%7D).observe(mut.addedNodes%5B0%5D.firstChild.children%5B1%5D.firstChild.firstChild%2C%20%7B%20attributes%3A%20true%2C%20childList%3A%20true%2C%20characterData%3A%20true%20%7D)%3B%7D%7D)%3B%7D).observe(document.body%2C%20%7B%20childList%3A%20true%20%7D)%3B%7D)(100)%7D)()">Insta UnlikeAll</a>
+    </li>
+    <li>
+      <a href="javascript:(function()%7Bconst%20mkFrame%20%3D%20(id%2C%20url)%20%3D%3E%20'%3CiFRAME%20SRC%3D%22'%2Burl%2B'%22%20name%3D%22'%2Bid%2B'%22%20width%3D%22840%22%20height%3D%22500%22%3E%3C%2Fiframe%3E'%3Bconst%20mkLink%20%3D%20(name)%20%3D%3E%20%22window.frames%5B'%22%2Bname%2B%22'%5D.document.getElementById('troop_confirm_go').click()%3B%22%3Blet%20frames%20%3D%20%22%22%2C%20links%20%3D%20%22%22%3Bfor%20(i%3D1%3Bi%3C%3D4%3Bi%2B%2B)%20%7Bframes%20%2B%3D%20mkFrame('name'%2Bi%2C%20window.location.href)%3Blinks%20%2B%3D%20mkLink('name'%2Bi)%3B%7Ddocument.body.innerHTML%3D'%3Ca%20href%3D%22javascript%3A'%2Blinks%2B'%22%3ESend%20Attack!%3C%2Fa%3E%3Cbr%3E'%2Bframes%7D)()">NT/Fake sender</a>
+    </li>
+  </ul>
